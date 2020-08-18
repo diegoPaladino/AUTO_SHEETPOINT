@@ -2,3 +2,4 @@
 
 import pyautogui
 import time
+import schedule
