@@ -51,3 +51,94 @@ JavaScript error: https://js.zohocdn.com/salesiq/https/js/embedmedia-rtc_3054a62
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1597861443546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileKIGYDM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597861447633	Marionette	INFO	Listening on port 50857
+1597861447733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+1597861789704	Marionette	INFO	Stopped listening on port 50857
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597861863933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile6rdPiF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597861867576	Marionette	INFO	Listening on port 51002
+1597861867608	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://pctel3.duckdns.org:40080"
+1597862525718	Marionette	INFO	Stopped listening on port 51002
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597862583592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile3ZPvM9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597862587250	Marionette	INFO	Listening on port 51156
+1597862587285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workdrive.zoho.com/mailHome.do?serviceOrigin=https%3A%2F%2Fmail.zoho.com&frameorigin=https://mail.zoho.com, line 32: ReferenceError: injectTheScript is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://pctel3.duckdns.org:40080"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390130,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB50006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390130,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB50006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1597863069379	Marionette	INFO	Stopped listening on port 51156
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597863123857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileuZ8lnt"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597863128235	Marionette	INFO	Listening on port 51527
+1597863128695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597863202011	Marionette	INFO	Stopped listening on port 51527
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597863243880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilekBhuQn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597863247304	Marionette	INFO	Listening on port 51640
+1597863247581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: https://workdrive.zoho.com/mailHome.do?serviceOrigin=https%3A%2F%2Fmail.zoho.com&frameorigin=https://mail.zoho.com, line 32: ReferenceError: injectTheScript is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1597863347382	Marionette	INFO	Stopped listening on port 51640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

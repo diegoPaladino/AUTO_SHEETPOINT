@@ -14,11 +14,11 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '15:05'
-hora_saida = '18:00'
-hora_zoiper = '14:13'
-hora_bloco_notas = '15:04'
-hora_chat = '15:10'
+hora_entrada = '15:58'
+hora_saida = '16:00'
+hora_zoiper = '15:58'
+hora_bloco_notas = '15:58'
+hora_chat = '15:59'
 
 
 #definindo as funções(definign the functions)
@@ -62,7 +62,6 @@ def mensagem_envio():
 #defining the Zoiper software opening:
 def zoiper():
     os.startfile('C:\Program Files (x86)\Attractel\Zoiper\Zoiper.exe')
-    print('opening Zoiper')
     print('Zoiper opened')
 
 #defining the notepads opening:
@@ -71,6 +70,7 @@ def bloco_notas():
     print('opening ANOTAÇÕES_DIEGO_SUPORTE')
     os.startfile(r'C:\Users\diego\OneDrive\Desktop\DESKTOP\ALC-BRASIL\PCTEL\BLOCO_NOTAS\COMANDOS-CMD.txt')
     print('opening COMANDOS-CMD')
+    print('notepads opened')
 
 
 def chat():
@@ -136,7 +136,7 @@ def chat():
     time.sleep(2)
     #login in the helpdesk
         #writing the email
-    print('logining in the Help Desk')    
+    print('logining in the Help Desk')
     p.write('DIEGO.F')
     time.sleep(0.5)
         #writing the password
