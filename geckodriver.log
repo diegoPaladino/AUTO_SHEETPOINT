@@ -1,0 +1,53 @@
+1597857963538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilez9Iioh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597857968525	Marionette	INFO	Listening on port 49993
+1597857968850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597859956201	Marionette	INFO	Stopped listening on port 49993
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597860003978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileb5G1Ur"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597860007740	Marionette	INFO	Listening on port 50215
+1597860008151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.zohocdn.com/salesiq/https/js/siqchatwindow1_c3fdfd53c3f64d88852a1c4ae4705036_.js, line 1: SecurityError: Permission denied to access property "$ZSIQWidget" on cross-origin object
+JavaScript error: https://js.zohocdn.com/salesiq/https/js/siqchatwindow1_c3fdfd53c3f64d88852a1c4ae4705036_.js, line 1: SecurityError: Permission denied to access property "$ZSIQWidget" on cross-origin object
+1597860145198	Marionette	INFO	Stopped listening on port 50215
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597860183546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile2o9YWI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597860187292	Marionette	INFO	Listening on port 50367
+1597860187721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.zohocdn.com/salesiq/https/js/siqchatwindow1_c3fdfd53c3f64d88852a1c4ae4705036_.js, line 1: SecurityError: Permission denied to access property "$ZSIQWidget" on cross-origin object
+JavaScript error: https://js.zohocdn.com/salesiq/https/js/siqchatwindow1_c3fdfd53c3f64d88852a1c4ae4705036_.js, line 1: SecurityError: Permission denied to access property "$ZSIQWidget" on cross-origin object
+1597860336430	Marionette	INFO	Stopped listening on port 50367
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597860603266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile2jLEwy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597860606955	Marionette	INFO	Listening on port 50549
+1597860607460	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://js.zohocdn.com/salesiq/https/js/embedmedia-rtc_3054a62031e5f906bd478132b1a82b87_.js, line 1: ReferenceError: $ is not defined
+1597861108479	Marionette	INFO	Stopped listening on port 50549
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
