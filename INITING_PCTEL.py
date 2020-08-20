@@ -14,17 +14,17 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '15:58'
-hora_saida = '16:00'
-hora_zoiper = '15:58'
-hora_bloco_notas = '15:58'
-hora_chat = '15:59'
+hora_entrada = '12:00'
+hora_saida = '18:00'
+hora_zoiper = '12:00'
+hora_bloco_notas = '12:00'
+hora_chat = '11:59'
 
 
 #definindo as funções(definign the functions)
 def envio_email_entrada():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="diegopaladinofoto@gmail.com" #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    rec_email="ponto@pctel.com" #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
@@ -41,7 +41,7 @@ def envio_email_entrada():
 
 def envio_email_saida():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="diegopaladinofoto@gmail.com" #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    rec_email="ponto@pctel.com" #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
@@ -161,11 +161,11 @@ schedule.every().thursday.at(hora_entrada).do(envio_email_entrada)
 schedule.every().friday.at(hora_entrada).do(envio_email_entrada)
 
 #Email de saída no serviço(job outgoing email)
-schedule.every().monday.at(hora_saida).do(envio_email_entrada)
-schedule.every().tuesday.at(hora_saida).do(envio_email_entrada)
-schedule.every().wednesday.at(hora_saida).do(envio_email_entrada)
-schedule.every().thursday.at(hora_saida).do(envio_email_entrada)
-schedule.every().friday.at(hora_saida).do(envio_email_entrada)
+schedule.every().monday.at(hora_saida).do(envio_email_saida)
+schedule.every().tuesday.at(hora_saida).do(envio_email_saida)
+schedule.every().wednesday.at(hora_saida).do(envio_email_saida)
+schedule.every().thursday.at(hora_saida).do(envio_email_saida)
+schedule.every().friday.at(hora_saida).do(envio_email_saida)
 
 #Abrindo o software Zoiper(opening the Zoiper software)
 schedule.every().monday.at(hora_zoiper).do(zoiper)
