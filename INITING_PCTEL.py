@@ -14,17 +14,17 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '16:35'
-hora_saida = '18:00'
-hora_zoiper = '16:35'
-hora_bloco_notas = '16:35'
-hora_chat = '16:36'
+hora_entrada = '20:00'
+hora_saida = '20:00'
+hora_zoiper = '20:00'
+hora_bloco_notas = '20:00'
+hora_chat = '20:01'
 
 
 #definindo as funções(definign the functions)
 def envio_email_entrada():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="iegopaladinofoto@gmail.com"
+    rec_email="diegopaladinofoto@gmail.com"
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
@@ -41,7 +41,7 @@ def envio_email_entrada():
 
 def envio_email_saida():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="iegopaladinofoto@gmail.com"
+    rec_email="diegopaladinofoto@gmail.com"
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
