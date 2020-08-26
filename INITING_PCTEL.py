@@ -14,11 +14,11 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '20:00'
-hora_saida = '20:00'
-hora_zoiper = '20:00'
-hora_bloco_notas = '20:00'
-hora_chat = '20:01'
+hora_entrada = '09:59'
+hora_saida = '09:59'
+hora_zoiper = '09:59'
+hora_bloco_notas = '09:59'
+hora_chat = '10:00'
 
 
 #definindo as funções(definign the functions)
