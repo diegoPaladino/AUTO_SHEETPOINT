@@ -8,7 +8,7 @@ import pyautogui as p
 from selenium import webdriver
 import winsound
 from selenium.webdriver.common.keys import Keys
-import time
+import time as t
 import schedule
 import smtplib
 import os
@@ -93,22 +93,22 @@ def chat():
     t.sleep(0.5)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
-    time.sleep(5)
+    t.sleep(5)
 
     print('opening a new window')
     #open new window
     p.hotkey('ctrl','t')
-    time.sleep(0.5)
+    t.sleep(0.5)
     p.write('https://www.zoho.com/mail/login.html')
     print('     waiting 3 seconds...')
-    time.sleep(3)
+    t.sleep(3)
     p.hotkey('enter')
     print('     waiting 10 seconds...')
-    time.sleep(10)
+    t.sleep(10)
     p.moveTo(923,-411)
     p.click()
     print('     waiting 10 seconds...')
-    time.sleep(10)
+    t.sleep(10)
 
     print('logining in the Zoho email')
     #opening the email new window
@@ -116,40 +116,40 @@ def chat():
     p.moveTo(488,-514)
     p.click()
     p.write('suporte@pctel.com.br')
-    time.sleep(1)
+    t.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
-    time.sleep(5)
+    t.sleep(5)
         #writing the password
     p.moveTo(494,-463)
     p.click()
     p.write('Pctel@123')
-    time.sleep(1)
+    t.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
-    time.sleep(5)
+    t.sleep(5)
 
     print('opening the Help Desk')
     #opening the Help Desk
         #writing the email
     p.hotkey('ctrl','t')
-    time.sleep(1)
+    t.sleep(1)
     p.write('http://pctel3.duckdns.org:40080')
-    time.sleep(1)
+    t.sleep(1)
     p.hotkey('enter')
-    time.sleep(3)
+    t.sleep(3)
     #login in the helpdesk
         #writing the email
     print('logining in the Help Desk')
     p.write('DIEGO.F')
-    time.sleep(1)
+    t.sleep(1)
         #writing the password
     p.hotkey('tab')
     p.write('pctel123')
-    time.sleep(1)
+    t.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
-    time.sleep(5)
+    t.sleep(5)
 
     print('chat opening finished!')
 
@@ -194,7 +194,7 @@ schedule.every().friday.at(hora_chat).do(chat)
 
 while 1:
     schedule.run_pending()
-    time.sleep(1)
+    t.sleep(1)
 
 os.exit(0)
 
