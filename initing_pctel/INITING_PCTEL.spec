@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['INITING_PCTEL.py'],
-             pathex=['C:\\Users\\diego\\OneDrive\\Desktop\\DESKTOP\\DATA_SCIENCE\\PYTHON\\AUTO_SHEETPOINT'],
+             pathex=['C:\\Users\\diego\\OneDrive\\Desktop\\DESKTOP\\DATA_SCIENCE\\PYTHON\\AUTO_SHEETPOINT\\initing_pctel'],
              binaries=[],
              datas=[],
              hiddenimports=[],

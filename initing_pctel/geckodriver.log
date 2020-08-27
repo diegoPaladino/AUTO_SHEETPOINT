@@ -570,3 +570,14 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1598534476729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileAZ5aD2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598534480827	Marionette	INFO	Listening on port 62012
+1598534480937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVLvov9ShS4hUEzpLRt4SwCZErcEgAvsyExf_pqOe_nvs5Z-mYK-Zuzpc27ZbJT7CRp-G-CWUblN7VbiFIyjWICDB8I0HPufqNqYjK9_ykMBBlBIGHRJrZ4HBIwy_ZCT0uNtF9dom6DPe6ZN4AV4Pwha0TEcG2Qq1jS0k1&t=f2cd5c5, line 103: TypeError: this._popupElement is null
+JavaScript error: https://workdrive.zoho.com/mailHome.do?serviceOrigin=https%3A%2F%2Fmail.zoho.com&frameorigin=https://mail.zoho.com, line 32: ReferenceError: injectTheScript is not defined
+1598534560697	Marionette	INFO	Stopped listening on port 62012
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

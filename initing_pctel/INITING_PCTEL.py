@@ -14,11 +14,11 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '09:22'
+hora_entrada = '12:00'
 hora_saida = '18:00'
-hora_zoiper = '09:22'
-hora_bloco_notas = '09:22'
-hora_chat = '09:24'
+hora_zoiper = '12:00'
+hora_bloco_notas = '12:00'
+# hora_chat = '10:27'
 
 
 #definindo as funções(definign the functions)
@@ -73,85 +73,85 @@ def bloco_notas():
     print('notepads opened')
 
 
-def chat():
-    print('opening the Firefox')
-    #buscando o executável do drive do Firefox
-    operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
-    driver = webdriver.Firefox()
+# def chat():
+#     print('opening the Firefox')
+#     #buscando o executável do drive do Firefox
+#     operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
+#     driver = webdriver.Firefox()
 
-    #solicitando a abertura de uma página
-    driver.get('http://dashboard.tawk.to')
-    driver.set_window_position(166,-700)
-    driver.maximize_window()
+#     #solicitando a abertura de uma página
+#     driver.get('http://dashboard.tawk.to')
+#     driver.set_window_position(166,-700)
+#     driver.maximize_window()
 
-    print('logining in the chat')
-    #efetuando o login na página inicial
-    username = driver.find_element_by_id('email')
-    password = driver.find_element_by_id('password')
-    username.send_keys('expedicao@pctel.com.br')
-    password.send_keys('pctel123')
-    t.sleep(0.5)
-    p.hotkey('enter')
-    print('     waiting 5 seconds...')
-    t.sleep(5)
+#     print('logining in the chat')
+#     #efetuando o login na página inicial
+#     username = driver.find_element_by_id('email')
+#     password = driver.find_element_by_id('password')
+#     username.send_keys('expedicao@pctel.com.br')
+#     password.send_keys('pctel123')
+#     t.sleep(0.5)
+#     p.hotkey('enter')
+#     print('     waiting 5 seconds...')
+#     t.sleep(5)
 
-    print('opening a new window')
-    #open new window
-    p.hotkey('ctrl','t')
-    t.sleep(0.5)
-    p.write('https://www.zoho.com/mail/login.html')
-    print('     waiting 3 seconds...')
-    t.sleep(3)
-    p.hotkey('enter')
-    print('     waiting 10 seconds...')
-    t.sleep(10)
-    p.moveTo(923,-411)
-    p.click()
-    print('     waiting 10 seconds...')
-    t.sleep(10)
+#     print('opening a new window')
+#     #open new window
+#     p.hotkey('ctrl','t')
+#     t.sleep(0.5)
+#     p.write('https://www.zoho.com/mail/login.html')
+#     print('     waiting 3 seconds...')
+#     t.sleep(3)
+#     p.hotkey('enter')
+#     print('     waiting 10 seconds...')
+#     t.sleep(10)
+#     p.moveTo(923,-411)
+#     p.click()
+#     print('     waiting 10 seconds...')
+#     t.sleep(10)
 
-    print('logining in the Zoho email')
-    #opening the email new window
-        #writing the email
-    p.moveTo(488,-514)
-    p.click()
-    p.write('suporte@pctel.com.br')
-    t.sleep(1)
-    p.hotkey('enter')
-    print('     waiting 5 seconds...')
-    t.sleep(5)
-        #writing the password
-    p.moveTo(494,-463)
-    p.click()
-    p.write('Pctel@123')
-    t.sleep(1)
-    p.hotkey('enter')
-    print('     waiting 5 seconds...')
-    t.sleep(5)
+#     print('logining in the Zoho email')
+#     #opening the email new window
+#         #writing the email
+#     p.moveTo(488,-514)
+#     p.click()
+#     p.write('suporte@pctel.com.br')
+#     t.sleep(1)
+#     p.hotkey('enter')
+#     print('     waiting 5 seconds...')
+#     t.sleep(5)
+#         #writing the password
+#     p.moveTo(494,-463)
+#     p.click()
+#     p.write('Pctel@123')
+#     t.sleep(1)
+#     p.hotkey('enter')
+#     print('     waiting 5 seconds...')
+#     t.sleep(5)
 
-    print('opening the Help Desk')
-    #opening the Help Desk
-        #writing the email
-    p.hotkey('ctrl','t')
-    t.sleep(1)
-    p.write('http://pctel3.duckdns.org:40080')
-    t.sleep(1)
-    p.hotkey('enter')
-    t.sleep(3)
-    #login in the helpdesk
-        #writing the email
-    print('logining in the Help Desk')
-    p.write('DIEGO.F')
-    t.sleep(1)
-        #writing the password
-    p.hotkey('tab')
-    p.write('pctel123')
-    t.sleep(1)
-    p.hotkey('enter')
-    print('     waiting 5 seconds...')
-    t.sleep(5)
+#     print('opening the Help Desk')
+#     #opening the Help Desk
+#         #writing the email
+#     p.hotkey('ctrl','t')
+#     t.sleep(1)
+#     p.write('http://pctel3.duckdns.org:40080')
+#     t.sleep(1)
+#     p.hotkey('enter')
+#     t.sleep(3)
+#     #login in the helpdesk
+#         #writing the email
+#     print('logining in the Help Desk')
+#     p.write('DIEGO.F')
+#     t.sleep(1)
+#         #writing the password
+#     p.hotkey('tab')
+#     p.write('pctel123')
+#     t.sleep(1)
+#     p.hotkey('enter')
+#     print('     waiting 5 seconds...')
+#     t.sleep(5)
 
-    print('chat opening finished!')
+#     print('chat opening finished!')
 
 #lógica do schedule (schedule logic):
 #schedule.cada.tempo.fazer(schedule.each.time.do)
@@ -185,22 +185,14 @@ schedule.every().wednesday.at(hora_bloco_notas).do(bloco_notas)
 schedule.every().thursday.at(hora_bloco_notas).do(bloco_notas)
 schedule.every().friday.at(hora_bloco_notas).do(bloco_notas)
 
-#Abrindo os chat e janelas secundárias(opening the chat and secundary windows)
-schedule.every().monday.at(hora_chat).do(chat)
-schedule.every().tuesday.at(hora_chat).do(chat)
-schedule.every().wednesday.at(hora_chat).do(chat)
-schedule.every().thursday.at(hora_chat).do(chat)
-schedule.every().friday.at(hora_chat).do(chat)
+# #Abrindo os chat e janelas secundárias(opening the chat and secundary windows)
+# schedule.every().monday.at(hora_chat).do(chat)
+# schedule.every().tuesday.at(hora_chat).do(chat)
+# schedule.every().wednesday.at(hora_chat).do(chat)
+# schedule.every().thursday.at(hora_chat).do(chat)
+# schedule.every().friday.at(hora_chat).do(chat)
 
 while 1:
     schedule.run_pending()
     t.sleep(1)
 
-os.exit(0)
-
-p.keyDown('ctrl')
-p.hotkey('c')
-p.keyUp('ctrl')
-
-
-exit()
