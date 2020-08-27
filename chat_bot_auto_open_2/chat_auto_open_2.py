@@ -1,20 +1,20 @@
 import pyautogui as p
 from selenium import webdriver
-import winsound
+# import winsound
 from selenium.webdriver.common.keys import Keys
 import time as t
 import schedule
 import smtplib
-import os
+# import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '12:09'
+hora_chat = '12:44'
 
 #definindo as funções(definign the functions)
 def chat():
     print('opening the Firefox')
     #buscando o executável do drive do Firefox
-    # operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
+    operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
     driver = webdriver.Firefox()
 
     #solicitando a abertura de uma página
@@ -99,4 +99,6 @@ schedule.every().wednesday.at(hora_chat).do(chat)
 schedule.every().thursday.at(hora_chat).do(chat)
 schedule.every().friday.at(hora_chat).do(chat)
 
-chat()
+while 1:
+    schedule.run_pending()
+    t.sleep(1)
