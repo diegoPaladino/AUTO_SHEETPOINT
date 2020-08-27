@@ -495,3 +495,16 @@ JavaScript error: http://pctel3.duckdns.org:40080/ScriptResource.axd?d=tezwe4yVL
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x39011F,name=PContent::Msg_NotifyMediaPlaybackChanged) Closed channel: cannot send/recv
 
+1598454004029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilefXlSkA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598454009584	Marionette	INFO	Listening on port 59956
+1598454009872	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1598456416777	Marionette	INFO	Stopped listening on port 59956
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

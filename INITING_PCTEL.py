@@ -14,11 +14,11 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '09:59'
-hora_saida = '09:59'
-hora_zoiper = '09:59'
-hora_bloco_notas = '09:59'
-hora_chat = '10:00'
+hora_entrada = '09:22'
+hora_saida = '18:00'
+hora_zoiper = '09:22'
+hora_bloco_notas = '09:22'
+hora_chat = '09:24'
 
 
 #definindo as funções(definign the functions)
@@ -90,6 +90,7 @@ def chat():
     password = driver.find_element_by_id('password')
     username.send_keys('expedicao@pctel.com.br')
     password.send_keys('pctel123')
+    t.sleep(0.5)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
     time.sleep(5)
@@ -99,8 +100,10 @@ def chat():
     p.hotkey('ctrl','t')
     time.sleep(0.5)
     p.write('https://www.zoho.com/mail/login.html')
+    print('     waiting 3 seconds...')
     time.sleep(3)
     p.hotkey('enter')
+    print('     waiting 10 seconds...')
     time.sleep(10)
     p.moveTo(923,-411)
     p.click()
@@ -113,14 +116,15 @@ def chat():
     p.moveTo(488,-514)
     p.click()
     p.write('suporte@pctel.com.br')
-    time.sleep(0.5)
+    time.sleep(1)
     p.hotkey('enter')
+    print('     waiting 5 seconds...')
     time.sleep(5)
         #writing the password
     p.moveTo(494,-463)
     p.click()
     p.write('Pctel@123')
-    time.sleep(0.5)
+    time.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
     time.sleep(5)
@@ -129,20 +133,20 @@ def chat():
     #opening the Help Desk
         #writing the email
     p.hotkey('ctrl','t')
-    time.sleep(0.5)
+    time.sleep(1)
     p.write('http://pctel3.duckdns.org:40080')
-    time.sleep(0.5)
+    time.sleep(1)
     p.hotkey('enter')
-    time.sleep(2)
+    time.sleep(3)
     #login in the helpdesk
         #writing the email
     print('logining in the Help Desk')
     p.write('DIEGO.F')
-    time.sleep(0.5)
+    time.sleep(1)
         #writing the password
     p.hotkey('tab')
     p.write('pctel123')
-    time.sleep(0.5)
+    time.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
     time.sleep(5)
