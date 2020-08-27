@@ -1,6 +1,3 @@
-#chat_auto_open_2
-
-#importing the libraries
 import pyautogui as p
 from selenium import webdriver
 import winsound
@@ -10,12 +7,14 @@ import schedule
 import smtplib
 import os
 
+#declarando variáveis(declaring variavals)
+hora_chat = '12:09'
 
-#the code
+#definindo as funções(definign the functions)
 def chat():
     print('opening the Firefox')
     #buscando o executável do drive do Firefox
-    operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
+    # operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
     driver = webdriver.Firefox()
 
     #solicitando a abertura de uma página
@@ -91,5 +90,13 @@ def chat():
     t.sleep(5)
 
     print('chat opening finished!')
+
+#definindo a execução programada(defining the scheduled execution)
+#Abrindo os chat e janelas secundárias(opening the chat and secundary windows)
+schedule.every().monday.at(hora_chat).do(chat)
+schedule.every().tuesday.at(hora_chat).do(chat)
+schedule.every().wednesday.at(hora_chat).do(chat)
+schedule.every().thursday.at(hora_chat).do(chat)
+schedule.every().friday.at(hora_chat).do(chat)
 
 chat()
