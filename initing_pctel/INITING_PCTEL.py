@@ -24,7 +24,7 @@ hora_bloco_notas = '12:00'
 #definindo as funções(definign the functions)
 def envio_email_entrada():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="diegopaladinofoto@gmail.com"
+    rec_email="ponto@pctel.com.br"
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
@@ -41,7 +41,7 @@ def envio_email_entrada():
 
 def envio_email_saida():
     sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="diegopaladinofoto@gmail.com"
+    rec_email="ponto@pctel.com.br"
     password='Paladio804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
