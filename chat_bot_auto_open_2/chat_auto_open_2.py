@@ -8,7 +8,7 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '11:57'
+hora_chat = '17:05'
 
 #definindo as funções(definign the functions)
 def chat():
@@ -89,6 +89,35 @@ def chat():
     print('     waiting 5 seconds...')
     t.sleep(5)
 
+    #opening the PABX:
+    p.hotkey('ctrl','t')
+    t.sleep(1)
+    p.write('https://pctel3.duckdns.org:40443/')
+    t.sleep(1)
+    p.hotkey('enter')
+    t.sleep(5)
+    # driver.find_element_by_xpath('//*[@id="input_user"]').click()
+    p.moveTo(625,-403)
+    t.sleep(0.3)
+    p.click()
+    p.write('admin')
+    p.hotkey('tab')
+    p.write('danzig1')
+    p.hotkey('enter')
+    t.sleep(4)
+    # driver.find_element_by_xpath('/html/body/div/div[1]/ul/li[6]/a').click()
+    p.moveTo(77,-681)
+    t.sleep(1)
+    p.click()
+    t.sleep(0.5)
+    p.moveTo(58,-532)
+    t.sleep(1)
+    p.click()
+    t.sleep(0.5)
+    p.moveTo(117,-460)
+    t.sleep(1)
+    p.click()
+
     print('chat opening finished!')
 
 #definindo a execução programada(defining the scheduled execution)
@@ -102,3 +131,5 @@ schedule.every().friday.at(hora_chat).do(chat)
 while 1:
     schedule.run_pending()
     t.sleep(1)
+
+# chat()
