@@ -4,6 +4,11 @@
 #Auomatize trie to open all necessaries resourses to work with a Pctel (wrong write)
 #Attemp to automate the opening of all resources made available to work with a Pctel
 
+# title of tutorial(schedule): Como Agendar Scripts Python & Execução Paralela #DevAprender
+# link of tutorial(schedule): https://www.youtube.com/watch?v=PAnrHMQBB-Y
+# link of tutorial:
+
+
 import pyautogui as p
 from selenium import webdriver
 import winsound
@@ -23,9 +28,9 @@ hora_bloco_notas = '12:00'
 
 #definindo as funções(definign the functions)
 def envio_email_entrada():
-    sender_email= "diegopaladinofoto@gmail.com"
-    rec_email="diegopaladinofoto@gmail.com"
-    password='Paladio804680'
+    sender_email= "diegopaladinopctel@gmail.com"
+    rec_email="ponto@pctel.com.br"
+    password='paladino804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
     server.login(sender_email, password)
@@ -40,9 +45,9 @@ def envio_email_entrada():
     print("Email has sent to",rec_email)
 
 def envio_email_saida():
-    sender_email= "diegopaladinofoto@gmail.com"
+    sender_email= "diegopaladinopctel@gmail.com"
     rec_email="ponto@pctel.com.br"
-    password='Paladio804680'
+    password='paladino804680'
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
     server.login(sender_email, password)
@@ -192,9 +197,16 @@ schedule.every().friday.at(hora_bloco_notas).do(bloco_notas)
 # schedule.every().thursday.at(hora_chat).do(chat)
 # schedule.every().friday.at(hora_chat).do(chat)
 
-while 1:
-    schedule.run_pending()
-    t.sleep(1)
+# while 1:
+#     schedule.run_pending()
+#     t.sleep(1)
+
+while True:
+		try:
+			schedule.run_pending()
+		except Exception as e:
+			print ("Excepion running pending: %s" % (e))
+		t.sleep(10)    
 
 #202010101607
 #202010111928
