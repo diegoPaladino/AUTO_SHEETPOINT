@@ -19,10 +19,10 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '12:00'
-hora_saida = '18:00'
-hora_zoiper = '12:00'
-hora_bloco_notas = '12:00'
+hora_entrada = '06:00'
+hora_saida = '08:26'
+hora_zoiper = '06:00'
+hora_bloco_notas = '06:00'
 # hora_chat = '10:27'
 
 
@@ -36,7 +36,7 @@ def envio_email_entrada():
     server.login(sender_email, password)
 
     subject = 'PONTO DIEGO'
-    body = 'ENTRADA: 12:00'
+    body = 'ENTRADA: 06:00'
 
     msg = f'Subject: {subject}\n\n{body}'
 
@@ -53,7 +53,7 @@ def envio_email_saida():
     server.login(sender_email, password)
 
     subject = 'PONTO DIEGO'
-    body = 'SAIDA: 18:00'
+    body = 'SAIDA: 12:00'
 
     msg = f'Subject: {subject}\n\n{body}'
 

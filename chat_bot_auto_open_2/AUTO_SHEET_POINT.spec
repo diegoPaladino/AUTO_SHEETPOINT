@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['AUTO_SHEET_POINT'],
-             pathex=['C:\\Users\\diego\\OneDrive\\Desktop\\DESKTOP\\DATA_SCIENCE\\PYTHON\\AUTO_SHEETPOINT\\initing_pctel'],
+a = Analysis(['AUTO_SHEET_POINT.py'],
+             pathex=['C:\\Users\\diego\\OneDrive\\Desktop\\DESKTOP\\DATA_SCIENCE\\PYTHON\\AUTO_SHEETPOINT\\chat_bot_auto_open_2'],
              binaries=[],
              datas=[],
              hiddenimports=[],
