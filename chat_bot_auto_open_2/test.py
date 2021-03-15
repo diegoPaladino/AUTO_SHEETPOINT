@@ -1,5 +1,5 @@
 import pyautogui as p
-import time as t
+import time as t201930307   201230065   200920452   
 
 
 p.moveTo(625,-403)
