@@ -8,7 +8,8 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '12:01'
+hora_chat = '17:13'
+
 
 #definindo as funções(definign the functions)
 def chat():
@@ -28,7 +29,7 @@ def chat():
     password = driver.find_element_by_id('password')
     username.send_keys('expedicao@pctel.com.br')
     password.send_keys('pctel123')
-    t.sleep(0.5)
+    t.sleep(1)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
     t.sleep(5)
@@ -72,7 +73,7 @@ def chat():
         #writing the email
     p.hotkey('ctrl','t')
     t.sleep(1)
-    p.write('http://pctel3.duckdns.org:40080')
+    p.write('http://pctel3.duckdns.org:8008')
     t.sleep(1)
     p.hotkey('enter')
     t.sleep(3)
@@ -131,5 +132,3 @@ schedule.every().friday.at(hora_chat).do(chat)
 while 1:
     schedule.run_pending()
     t.sleep(1)
-
-# chat()
