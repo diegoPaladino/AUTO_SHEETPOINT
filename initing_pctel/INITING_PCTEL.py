@@ -7,7 +7,7 @@
 # title of tutorial(schedule): Como Agendar Scripts Python & Execução Paralela #DevAprender
 # link of tutorial(schedule): https://www.youtube.com/watch?v=PAnrHMQBB-Y
 # link of tutorial:
-# alteration test to save on git
+
 
 import pyautogui as p
 from selenium import webdriver
