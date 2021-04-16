@@ -7,8 +7,6 @@ import schedule
 import smtplib
 # import os
 
-# simple comment to test git hub
-
 #declarando variáveis(declaring variavals)
 hora_chat = '07:58'
 
