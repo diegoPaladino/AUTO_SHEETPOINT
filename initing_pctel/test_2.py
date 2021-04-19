@@ -17,7 +17,7 @@ import os
 
 #declarando variáveis(declaring variavals)
 hora_entrada = '06:00'
-hora_saida = '12:00'
+hora_saida = '11:41'
 hora_zoiper = '06:00'
 hora_bloco_notas = '06:00'
 # hora_chat = '10:27'
