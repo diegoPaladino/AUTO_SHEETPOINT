@@ -16,10 +16,10 @@ import smtplib
 import os
 
 #declarando variáveis(declaring variavals)
-hora_entrada = '08:33'
-hora_saida = '18:00'
-hora_zoiper = '08:33'
-hora_bloco_notas = '08:33'
+hora_entrada = '06:00'
+hora_saida = '12:00'
+hora_zoiper = '06:00'
+hora_bloco_notas = '06:00'
 # hora_chat = '10:27'
 
 
