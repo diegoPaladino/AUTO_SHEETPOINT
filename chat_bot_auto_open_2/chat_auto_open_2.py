@@ -8,7 +8,7 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '05:57'
+hora_chat = '08:16'
 
 
 #definindo as funções(definign the functions)
