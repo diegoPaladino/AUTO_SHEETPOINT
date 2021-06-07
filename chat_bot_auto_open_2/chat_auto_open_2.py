@@ -8,7 +8,8 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '07:38'
+hora_chat = '07:49'
+
 
 
 
@@ -31,6 +32,8 @@ def chat():
     username.send_keys('expedicao@pctel.com.br')
     password.send_keys('pctel123')
     t.sleep(1)
+    p.hotkey('tab')
+    t.sleep(0.3)
     p.hotkey('enter')
     print('     waiting 5 seconds...')
     t.sleep(5)
@@ -45,7 +48,7 @@ def chat():
     p.hotkey('enter')
     print('     waiting 10 seconds...')
     t.sleep(10)
-    p.moveTo(923,-411)
+    p.moveTo(848,-410)
     p.click()
     print('     waiting 10 seconds...')
     t.sleep(10)
