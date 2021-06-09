@@ -1,3 +1,4 @@
+from tkinter import Button
 import pyautogui as p
 from selenium import webdriver
 # import winsound
@@ -8,13 +9,20 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '07:49'
+hora_chat = '07:35'
 
 
 
 
 #definindo as funções(definign the functions)
 def chat():
+    p.alert(text='O programa CHAT AUTO BOT vai começar.',title='diegoPaladino',button='OK')
+    p.keyDown('win')
+    t.sleep(0.2)
+    p.hotkey('d')
+    t.sleep(0.2)
+    p.keyUp('win')
+    t.sleep(0.2)
     print('opening the Firefox')
     #buscando o executável do drive do Firefox
     operadriver='C://Users//diego//OneDrive//Desktop//DESKTOP//PROGRAMAS//MOZILA//geckodriver.exe'
@@ -122,7 +130,17 @@ def chat():
     p.moveTo(117,-460)
     t.sleep(1)
     p.click()
-
+    # parando o programa no VSCode
+    p.moveTo(x=471, y=670,duration=0.2)
+    p.click()
+    p.keyDown('ctrl')
+    t.sleep(0.2)
+    p.hotkey('c')
+    t.sleep(0.2)
+    p.keyUp('ctrl')
+    t.sleep(0.2)
+    # abrindo janela alerta de informativo de finalização de execução do programa.
+    p.alert(text='O programa CHAT AUTO BOT finalizou.',title='diegoPaladino',button='OK')
     print('chat opening finished!')
 
 #definindo a execução programada(defining the scheduled execution)
