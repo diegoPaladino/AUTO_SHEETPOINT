@@ -9,7 +9,7 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '07:32'
+hora_chat = '08:23'
 
 #definindo as funções(definign the functions)
 def chat():
@@ -112,7 +112,7 @@ def chat():
     p.click()
     p.write('admin')
     p.hotkey('tab')
-    p.write('danzig1')
+    p.write('15011987')
     p.hotkey('enter')
     t.sleep(4)
     # driver.find_element_by_xpath('/html/body/div/div[1]/ul/li[6]/a').click()
