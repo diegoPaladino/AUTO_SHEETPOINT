@@ -9,7 +9,7 @@ import smtplib
 # import os
 
 #declarando variáveis(declaring variavals)
-hora_chat = '07:33'
+hora_chat = '08:01'
 
 #definindo as funções(definign the functions)
 def chat():
@@ -69,7 +69,7 @@ def chat():
     print('     waiting 5 seconds...')
     t.sleep(5)
         #writing the password
-    p.moveTo(494,-463)
+    p.moveTo(x=475, y=-437)
     p.click()
     p.write('Pctel@123')
     t.sleep(1)
